@@ -60,6 +60,9 @@ dependencies:
   google_sign_in: ^5.4.2
   fluttermoji: ^1.0.1
   shared_preferences: ^2.0.15
+  syncfusion_flutter_core: ^21.1.38
+  syncfusion_flutter_gauges: ^21.1.38
+  syncfusion_flutter_sliders: ^21.1.38
  
 dev_dependencies:
   flutter_test:

@@ -337,6 +337,13 @@ class _HomePageState extends State<HomePage> {
                               Get.toNamed('/stats');
                             },
                           ),
+                          const SizedBox(width: 48.0),
+                          IconButton(
+                            icon: Icon(Icons.account_balance_wallet_outlined),
+                            onPressed: () {
+                              Get.toNamed('/calculator');
+                            },
+                          ),
                         ],
                       ),
                     ),

@@ -5,6 +5,7 @@ import 'package:moneyp/bindings/stats_page_binding.dart';
 import 'package:moneyp/bindings/wallet_homepage_binding.dart';
 import 'package:moneyp/bindings/wallet_onboard_binding.dart';
 import 'package:moneyp/feature/home/view/homepage_view.dart';
+import 'package:moneyp/feature/investment/calculator.dart';
 import 'package:moneyp/feature/login/view/login_view.dart';
 import 'package:moneyp/feature/login/view/sign_up_view.dart';
 import 'package:moneyp/feature/onboard/view/onboard_view.dart';
@@ -30,6 +31,8 @@ class AppRoutes {
     GetPage(name: '/walletonboard', page: () => WalletOnboardPage(),binding: WalletOnboardBinding()),
     GetPage(name: '/stats', page:() => const StatsPage(),binding: StatsPageBinding()),
     GetPage(name: '/wallets', page: () =>  const WalletsPage(),binding: WalletHomepageBinding()),
+    GetPage(name: '/calculator', page: () =>  const MobileLayout()),
+
     
   ];
 }
